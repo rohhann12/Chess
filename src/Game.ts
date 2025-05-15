@@ -77,7 +77,7 @@ export class Game {
         }
         const result = this.Board.move(Move);
         if (!result) {
-            console.log("Invalid move");
+            console.log("posnfpsnfpsrnInvalid move");
             return;
         }
 
